@@ -1,8 +1,7 @@
 #pragma once
 #include <string>  
-#include <functional>
-#include <WS2tcpip.h>
 #include <iostream>
+#include <WS2tcpip.h>
 
 struct WinSockException : public std::exception
 {
